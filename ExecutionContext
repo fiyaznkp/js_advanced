@@ -1,0 +1,9 @@
+Everything in js happens inside an execution context
+
+it has two components
+
+1.memory ; it is the place for storing functions and variables as key value pairs.
+it is also known as variable environment
+
+2.code ; it also known as thread of execution
+it is the place for code execution

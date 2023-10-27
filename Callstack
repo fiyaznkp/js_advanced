@@ -1,0 +1,2 @@
+it is a datastructure that keeps tracks of the function calls in program.
+when a function execution is completed it is popped from the callstack and the control returns to the calling function.

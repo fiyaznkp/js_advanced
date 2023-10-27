@@ -1,0 +1,3 @@
+it is a concept in js for variables declared with const and let.
+it represents the period in code where a variable is available but cannot be accessed because it is not initialised.
+it shows reference error in this case

@@ -1,0 +1,45 @@
+// 1. promise is a js object which represents the eventual completion or failure of asynchronous operations and its resulting values.
+
+// 2.promise has 3 
+
+// a.pending - it is the initial state of promise, it means the operation is not fullfilled or rejected the operation is ongoing
+
+// b.fullfilled - it shows the operation is fullfilled
+
+// c.rejected - it means the operation is rejected
+
+// 3.creating a promise - we can create a "Promise" using promise constructor
+
+// eg- const promise = new Promise((resolve,reject)=> {
+//     if(operation fullfilled) {
+//         resolve(result)
+//     }
+//     else{
+//         reject(result)
+//     }
+// })
+
+// 4.chaining promises 
+
+// promise can be chained using "then" keyword,
+
+// eg for chaining promise eg- 
+
+// myPromise  
+//  .then((result) => {
+//     return anotherPromise
+//  })
+//  .then((anotherResult) => {
+//     handle the result of the second promise
+//  })
+//  .catch((error)=>
+//    handle errors that occur in the chain
+//  )
+  
+//promise.all
+
+// it is a js method to handle multiple asynchronous operatiopns at same time and wait for all of them to complete for further code execution.
+
+//promise.race
+
+//it is also a js method for working with promises . it only wait for the first one to complete

@@ -1,0 +1,6 @@
+in lexical scoping the scope of a variable or a function is determined by its location in the code.
+it is also known as static scoping
+
+lexical environment is created when a execution context is created
+it means it is the local memory of the variables and the lexical environmnet of its parent
+
