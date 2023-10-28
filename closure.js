@@ -1,0 +1,1 @@
+// a closure is the combination of a function bundled together with refrences to its lexical environment
