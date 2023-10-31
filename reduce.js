@@ -46,15 +46,32 @@
 
 // console.log(result)
 
-const numbers = [1,2,2,1,3,4] 
+// const numbers = [1,2,1,3,4] 
 
-function number(x,y) {
-   if(numbers) {
-     x === y
-   }
-   return x
-}
+// function number(x,y) {
+//    if(numbers) {
+//      x === y
+//    }
+//    return x
+// }
 
-const result = numbers.reduce(number)
+// const result = numbers.reduce(number)
 
-console.log(result)
+// console.log(result)
+
+// const numbers = [1,2,3,1] 
+
+// function number (acc,curr) {
+//     if(acc[curr.numbers]) {
+//         acc[curr.age] = ++acc[curr.age]
+//     }
+//     else {
+//         acc[curr.age] =1
+//     }
+//     return acc
+// }
+
+// const result = numbers.reduce(number)
+
+// console.log(result)
+

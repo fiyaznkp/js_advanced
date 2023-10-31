@@ -36,3 +36,16 @@
 // console.log(substraction(23,12))
 // console.log(multiplication(2,3))
 // console.log(division(24,6))
+
+// const numbers = [1, 4, 9, 16]
+
+
+// const substractOne = numbers.map((number)=>number-1)
+
+// console.log(substractOne)
+
+const numbers = [2,3,4,5,6]
+
+const result = numbers.map((number)=> number *2)
+
+console.log(result)

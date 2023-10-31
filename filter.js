@@ -30,12 +30,43 @@
 
 // console.log(result)
 
-const arr = [1,2,3,4,5]
+// const arr = [1,2,3,4,5]
 
-function sort (x) {
-    return x < 3
-}
+// function sort (x) {
+//     return x < 3
+// }
 
-const result = arr.filter(sort)
+// const result = arr.filter(sort)
 
-console.log(result)
+// console.log(result)
+
+// const age = [1,2,3,4,5]
+
+// function fill(x) {
+//     return x > 2
+// }
+
+// const result = age.filter(fill)
+
+// console.log(result)
+
+// const users = [
+//     {
+//         firstName:"ali" , lastName:"fiyaz" , age :25
+//     },
+//     {
+//         firstName:"mhd" , lastName:"muhlar" , age: 22
+//     },
+//     {
+//         firstName:"faris" , lastName:"ahammed" , age: 20   
+//      }
+// ]
+//  function userDetails(x) {
+//     return x.age > 20
+//  }
+
+// const filteredUsers = users.filter(userDetails)
+// const filteredUserNames = filteredUsers.map(user => user.firstName)
+
+// console.log(filteredUserNames)
+
