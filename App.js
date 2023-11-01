@@ -44,8 +44,14 @@
 
 // console.log(substractOne)
 
-const numbers = [2,3,4,5,6]
+// const numbers = [2,3,4,5,6]
 
-const result = numbers.map((number)=> number *2)
+// const result = numbers.map((number)=> number *2)
+
+// console.log(result)
+
+const numbers = [1,2,3,4,5]
+
+const result = numbers.map((number)=>number -2)
 
 console.log(result)
